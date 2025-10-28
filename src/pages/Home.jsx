@@ -55,7 +55,7 @@ export default function Home() {
           <Link   to="../series/pao-world"
               state={{
                 title: "Pixelmon Art Online Series",
-                logo: "../src/assets/img/logo_pao.png",
+                logo: "../assets/img/logo_pao.png",
                 descripcion:
                   "Serie de pixelmon/cobblemon con historia propia y un sin fin de desafíos, con su propio entrenadores de gimnasios, uno más complejo que otros. A su vez tenemos una historia que narra los hechos de nuestros héroes y dioses buscando escapar de ese universo inestable.",
                 tecnica: {
@@ -80,7 +80,7 @@ export default function Home() {
           <Link   to="/series/fate-apocraft"
                 state={{
                 title: "Fate Apocraft Series",
-                logo: "../src/assets/img/logo_fap.png",
+                logo: "../assets/img/logo_fap.png",
                 descripcion:
                   "Imagínate estar en un apocalipsis zombi con un grupo de supervivientes buscando la forma de erradicar la infección, creando y mejorando armas, con misiones de lo más locas y una historia inmersiva para llegar a la ''cura'' de la infección.",
                 tecnica: {
