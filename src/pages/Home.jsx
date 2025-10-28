@@ -52,10 +52,10 @@ export default function Home() {
       <section id="series" className="mx-auto max-w-6xl px-4 py-12">
         <h2 className="text-2xl font-bold section-title">Series Principales</h2>
         <div className="mt-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-          <Link   to="/series/pao-world"
+          <Link   to="../series/pao-world"
               state={{
                 title: "Pixelmon Art Online Series",
-                logo: "/src/assets/img/logo_pao.png",
+                logo: "../src/assets/img/logo_pao.png",
                 descripcion:
                   "Serie de pixelmon/cobblemon con historia propia y un sin fin de desafíos, con su propio entrenadores de gimnasios, uno más complejo que otros. A su vez tenemos una historia que narra los hechos de nuestros héroes y dioses buscando escapar de ese universo inestable.",
                 tecnica: {
@@ -67,7 +67,7 @@ export default function Home() {
               }} className="group card-dark p-4 hover:shadow transition">
             <div className="flex items-center justify-center h-[200px]">
               <img
-                src="/src/assets/img/logo_pao.png"
+                src="../src/assets/img/logo_pao.png"
                 alt="Logo Serie"
                 className="h-full w-auto object-contain select-none"
               />
@@ -80,7 +80,7 @@ export default function Home() {
           <Link   to="/series/fate-apocraft"
                 state={{
                 title: "Fate Apocraft Series",
-                logo: "/src/assets/img/logo_fap.png",
+                logo: "../src/assets/img/logo_fap.png",
                 descripcion:
                   "Imagínate estar en un apocalipsis zombi con un grupo de supervivientes buscando la forma de erradicar la infección, creando y mejorando armas, con misiones de lo más locas y una historia inmersiva para llegar a la ''cura'' de la infección.",
                 tecnica: {
@@ -92,7 +92,7 @@ export default function Home() {
               }} className="group card-dark p-4 hover:shadow transition">
            <div className="flex items-center justify-center h-[200px]">
               <img
-                src="/src/assets/img/logo_fap.png"
+                src="../src/assets/img/logo_fap.png"
                 alt="Logo Serie"
                 className="h-full w-auto object-contain select-none"
               />
@@ -102,10 +102,10 @@ export default function Home() {
               una gran variedad de armas y herramientas.</p>
             <div className="mt-3 text-[#b37bff] text-sm group-hover:underline">Abrir →</div>
           </Link>
-          <Link   to="/series/boss-of-madness"
+          <Link   to="../series/boss-of-madness"
                 state={{
                 title: "Boss of Madness Series",
-                logo: "/src/assets/img/logo_bom.png",
+                logo: "../src/assets/img/logo_bom.png",
                 descripcion:
                   "¿Buscas un desafío para tus habilidades? ¿Un lugar plagado de jefes y enemigos muy poderosos? En Boss of Madness tienes todo eso y más, con un sistema de 3 vidas no solo dependerás de tus habilidades sino de tu suerte porque un mínimo error podrías significar la pérdida de una importante vida, también recuerda que no estás solo en este mundo y con compañeros deberás derrotar a los jefes que atormentan este mundo.",
                 tecnica: {
@@ -117,7 +117,7 @@ export default function Home() {
               }} className="group card-dark p-4 hover:shadow transition">
             <div className="flex items-center justify-center h-[200px]">
               <img
-                src="/src/assets/img/logo_bom.png"
+                src="../src/assets/img/logo_bom.png"
                 alt="Logo Serie"
                 className="h-full w-auto object-contain select-none"
               />

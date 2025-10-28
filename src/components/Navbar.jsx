@@ -50,12 +50,12 @@ export default function Navbar() {
       <div className="max-w-6xl mx-auto flex items-center justify-between px-4 py-3">
         <div className="flex items-center gap-2">
           <img
-            src="/src/assets/img/logo_pao_dark.png"
+            src="../src/assets/img/logo_pao_dark.png"
             alt="Pao Studios"
             className="h-8 w-auto object-contain logo-light select-none"
           />
           <img
-            src="/src/assets/img/logo_pao_light.png"
+            src="../src/assets/img/logo_pao_light.png"
             alt="Pao Studios"
             className="h-8 w-auto object-contain logo-dark select-none"
           />
