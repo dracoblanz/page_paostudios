@@ -1,0 +1,105 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --accent: #b37bff;
+}
+
+:root {
+  --nav-h: 56px;
+}
+
+body {
+  padding-top: var(--nav-h);
+}
+
+@media (min-width: 1024px) {
+  :root {
+    --nav-h: 60px;
+  }
+}
+
+html, body, #root { height: 100%; }
+
+body { background:#0a0a0a; color:#e5e5e5; }
+
+input:-webkit-autofill,
+textarea:-webkit-autofill,
+select:-webkit-autofill {
+  -webkit-text-fill-color: #e5e5e5;
+  caret-color: #e5e5e5;
+  transition: background-color 9999s ease-in-out 0s;
+  box-shadow: 0 0 0px 1000px #0f0f11 inset !important;
+}
+
+::placeholder {
+  color: #9ca3af;
+  opacity: 1; 
+}
+
+@layer components {
+  .card-dark { @apply rounded-2xl border border-neutral-700 bg-neutral-900 text-neutral-100; }
+  .panel-dark { @apply rounded-2xl border border-neutral-700 bg-neutral-900 text-neutral-100; }
+  .btn-dark { @apply rounded-2xl border border-neutral-700 bg-neutral-900 text-neutral-100 hover:bg-neutral-800; }
+  .btn-dark:disabled { @apply opacity-60 cursor-not-allowed; }
+  .link-dark { @apply text-neutral-200 hover:text-white; }
+  .accent { @apply text-[#b37bff]; }
+  .muted { @apply text-neutral-400; }
+  .focus-ring {@apply focus:outline-none focus:ring-2 focus:ring-[#b37bff]/60 focus:ring-offset-2 focus:ring-offset-neutral-900;}
+  .nav-link { @apply px-3 py-2 rounded-xl transition text-neutral-200 hover:text-white hover:bg-neutral-800; }
+  .nav-link-active {@apply text-white bg-[#b37bff]/20 border border-[#b37bff]/40 shadow-sm;}
+  .chip { @apply inline-flex items-center gap-2 rounded-full border border-neutral-700 bg-neutral-900 px-3 py-1 text-sm text-neutral-100; }
+  .input-dark {@apply w-full rounded-xl border border-neutral-700 bg-neutral-900 text-neutral-100 placeholder-neutral-500 px-3 py-2 focus:outline-none focus:ring focus:ring-[#b37bff]/40;}
+  .section-title { @apply text-neutral-100; }
+  .subtitle { @apply text-neutral-300; }
+}
+
+html.theme-light {
+  filter: invert(1) hue-rotate(180deg);
+}
+
+html.theme-light img,
+html.theme-light video,
+html.theme-light canvas,
+html.theme-light iframe,
+html.theme-light .no-invert {
+  filter: invert(1) hue-rotate(180deg);
+}
+
+html.theme-dark {
+  filter: none;
+}
+
+.logo-light { display: none; }
+.logo-dark  { display: block; }
+
+html.theme-light .logo-light { display: block; }
+html.theme-light .logo-dark  { display: none; }
+
+html.theme-light .logo-light,
+html.theme-light .logo-dark {
+  filter: invert(1) hue-rotate(180deg);
+}
+
+.home-bg {
+  background-image:
+    linear-gradient(to bottom, rgba(0,0,0,.35), rgba(0,0,0,.9), rgba(0,0,0)),
+    url('/src/assets/img/home_bg.jpg'); /* cambia la ruta si querés */
+  background-size: cover;
+  background-position: center;
+}
+
+/* Color de acento lavanda */
+:root { --accent: #b37bff; }
+
+/* Úsalo en links y textos que quieras lavanda */
+.accent    { color: var(--accent); }
+.accent:hover { color: var(--accent); }
+
+/* Para subrayado del mismo color (Abrir →) */
+.underline-accent {
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  text-decoration-color: var(--accent);
+}
