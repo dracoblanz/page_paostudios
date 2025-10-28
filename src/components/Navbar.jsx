@@ -65,12 +65,13 @@ export default function Navbar() {
           <NavLink to="/" className={({ isActive }) => (isActive ? activeClass : inactiveClass)}>
             Inicio
           </NavLink>
-          <button to="/"
+          <NavLink to="/">
+          <button
             onClick={scrollToRedes}
             className="text-neutral-300 hover:text-[#b37bff] transition-colors pb-1"
           >
             Redes
-          </button>
+          </button></NavLink>
           <div className="relative" ref={toolsRef}>
             <button
               onClick={() => { setOpenTools(v => !v); setOpenSocial(false); }}
