@@ -3,7 +3,7 @@
   "private": true,
   "version": "2.1.0",
   "type": "module",
-  "homepage": "https://dracoblanz.github.io/",
+  "homepage": "https://playartonline.site/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
