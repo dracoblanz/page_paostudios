@@ -67,7 +67,7 @@ export default function Home() {
               }} className="group card-dark p-4 hover:shadow transition">
             <div className="flex items-center justify-center h-[200px]">
               <img
-                src="../src/assets/img/logo_pao.png"
+                src="../assets/img/logo_pao.png"
                 alt="Logo Serie"
                 className="h-full w-auto object-contain select-none"
               />
@@ -92,7 +92,7 @@ export default function Home() {
               }} className="group card-dark p-4 hover:shadow transition">
            <div className="flex items-center justify-center h-[200px]">
               <img
-                src="../src/assets/img/logo_fap.png"
+                src="../assets/img/logo_fap.png"
                 alt="Logo Serie"
                 className="h-full w-auto object-contain select-none"
               />
@@ -105,7 +105,7 @@ export default function Home() {
           <Link   to="../series/boss-of-madness"
                 state={{
                 title: "Boss of Madness Series",
-                logo: "../src/assets/img/logo_bom.png",
+                logo: "../assets/img/logo_bom.png",
                 descripcion:
                   "¿Buscas un desafío para tus habilidades? ¿Un lugar plagado de jefes y enemigos muy poderosos? En Boss of Madness tienes todo eso y más, con un sistema de 3 vidas no solo dependerás de tus habilidades sino de tu suerte porque un mínimo error podrías significar la pérdida de una importante vida, también recuerda que no estás solo en este mundo y con compañeros deberás derrotar a los jefes que atormentan este mundo.",
                 tecnica: {
@@ -117,7 +117,7 @@ export default function Home() {
               }} className="group card-dark p-4 hover:shadow transition">
             <div className="flex items-center justify-center h-[200px]">
               <img
-                src="../src/assets/img/logo_bom.png"
+                src="../assets/img/logo_bom.png"
                 alt="Logo Serie"
                 className="h-full w-auto object-contain select-none"
               />
