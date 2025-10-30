@@ -65,6 +65,9 @@ export default function Navbar() {
           <NavLink to="/" className={({ isActive }) => (isActive ? activeClass : inactiveClass)}>
             Inicio
           </NavLink>
+          <NavLink to="/series" className={({ isActive }) => (isActive ? activeClass : inactiveClass)}>
+            Series
+          </NavLink>
           <NavLink to="/">
           <button
             onClick={scrollToRedes}

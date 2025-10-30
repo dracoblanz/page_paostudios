@@ -71,6 +71,12 @@ html.theme-dark {
   filter: none;
 }
 
+@layer utilities {
+  .align-self-anchor-center {
+    align-self: anchor-center;
+  }
+}
+
 .logo-light { display: none; }
 .logo-dark  { display: block; }
 
@@ -85,19 +91,16 @@ html.theme-light .logo-dark {
 .home-bg {
   background-image:
     linear-gradient(to bottom, rgba(0,0,0,.35), rgba(0,0,0,.9), rgba(0,0,0)),
-    url('/src/assets/img/home_bg.jpg'); /* cambia la ruta si querés */
+    url('/src/assets/img/home_bg.jpg');
   background-size: cover;
   background-position: center;
 }
 
-/* Color de acento lavanda */
 :root { --accent: #b37bff; }
 
-/* Úsalo en links y textos que quieras lavanda */
 .accent    { color: var(--accent); }
 .accent:hover { color: var(--accent); }
 
-/* Para subrayado del mismo color (Abrir →) */
 .underline-accent {
   text-decoration: underline;
   text-underline-offset: 2px;

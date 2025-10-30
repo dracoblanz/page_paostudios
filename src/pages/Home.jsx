@@ -73,8 +73,8 @@ export default function Home() {
               />
             </div>
             <h3 className="mt-2 font-semibold">Pixelmon Art Online Series</h3>
-            <p className="text-sm muted">Serie de pixelmon/cobblemon con historia propia y un sin fin de desafios, preparate para
-              enfrentar a formidables entrenadores y enemigos.</p>
+            <p className="text-sm muted">Serie de pixelmon/cobblemon con historia propia y un sin fin de desafíos, prepárate para
+                enfrentar a formidables entrenadores y enemigos.</p>
             <div className="mt-3 text-[#b37bff] text-sm group-hover:underline">Abrir →</div>
           </Link>
           <Link   to="/series/fate-apocraft"
@@ -98,8 +98,8 @@ export default function Home() {
               />
             </div>
             <h3 className="mt-2 font-semibold">Fate Apocraft Series</h3>
-            <p className="text-sm muted">Serie de apocalipsis zombie con armas un historia atrapante y mucha dificultad en cada paso que das con
-              una gran variedad de armas y herramientas.</p>
+            <p className="text-sm muted">Serie de apocalipsis zombis con armas, una historia inmersiva y mucha dificultad en cada paso que das 
+              con una gran variedad de armas y herramientas.</p>
             <div className="mt-3 text-[#b37bff] text-sm group-hover:underline">Abrir →</div>
           </Link>
           <Link   to="../series/boss-of-madness"
@@ -123,7 +123,7 @@ export default function Home() {
               />
             </div>
             <h3 className="mt-2 font-semibold">Boss Of Madness Series</h3>
-            <p className="text-sm muted">Serie con vidas limitadas y muchos jefes. Disfruta de una historia medieval con dungeon increibles y enemigos formidables.</p>
+            <p className="text-sm muted">Serie con vidas limitadas y muchos jefes. Disfruta de una historia medieval con dungeon increíbles y enemigos formidables</p>
             <div className="mt-3 text-[#b37bff] text-sm group-hover:underline">Abrir →</div>
           </Link>
         </div>

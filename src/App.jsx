@@ -14,6 +14,7 @@ import useTeamRouletteState from './hooks/useTeamRouletteState.js'
 import { captureNodeAsPng } from './utils/capture.js'
 import RuletaAsignacion from "./pages/RuletaAsignacion.jsx";
 import SerieDetalle from "./pages/SerieDetalle";
+import SeriesPage from "./pages/SeriesPage";
 
 function RoulettePage() {
   const state = useTeamRouletteState()
@@ -99,6 +100,7 @@ export default function App() {
         <Route path="/apps/torneo" element={<Tournament />} />
         <Route path="/apps/sorteo" element={<RuletaAsignacion />} />
         <Route path="/series/:slug" element={<SerieDetalle />} />
+        <Route path="/series" element={<SeriesPage />} />
       </Routes>
       <Footer />
     </BrowserRouter>

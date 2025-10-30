@@ -197,10 +197,8 @@ export default function SerieDetalle() {
       ? data.gallery
       : loadGalleryFromFolder(slug);
 
-  // fullscreen del LOGO
   const [isOpen, setIsOpen] = useState(false);
 
-  // Esc para cerrar el fullscreen del logo
   useEffect(() => {
     if (!isOpen) return;
     const onKey = (e) => {

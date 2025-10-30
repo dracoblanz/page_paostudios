@@ -1,6 +1,5 @@
 import React, { useMemo, useState, useEffect } from "react";
 
-/* ========== utils ========== */
 function uid(prefix = "id") { return `${prefix}_${Math.random().toString(36).slice(2, 9)}`; }
 function nextPow2(n) { let p = 1; while (p < n) p <<= 1; return p; }
 function pairUp(slots) {
@@ -183,7 +182,6 @@ export default function Tournament() {
 
       <h1 className="text-center text-3xl font-bold text-neutral-100 mb-6">Torneo</h1>
 
-      {/* Controles */}
       <div className="mx-auto max-w-3xl border border-neutral-800 rounded-2xl p-4 bg-neutral-900/60 backdrop-blur mb-6">
         <label className="block mb-3">
           <div className="mb-2 text-neutral-300">Pegar participantes:</div>
