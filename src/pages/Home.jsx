@@ -28,7 +28,7 @@ export default function Home() {
               </h1>
               <p className="mt-6 text-lg text-neutral-200 max-w-prose">
                 Un estudio que no es estudio que crea series para streamers por
-                diversion. Puedes crear tu propia historia en nuestro universo.
+                diversión. Puedes crear tu propia historia en nuestro universo.
               </p>
                 <button
                   onClick={() => {

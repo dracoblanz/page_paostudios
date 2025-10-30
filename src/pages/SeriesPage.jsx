@@ -8,7 +8,7 @@ const seriesData = [
     duracion: "20 días",
     version: "1.16.5",
     descripcion:
-      "Una historia loca y extrema con una dificultad estilo hardcore",
+      "Una historia loca y extrema con una dificultad estilo hardcore.",
     estado: "activo",
   },
   {
@@ -18,7 +18,7 @@ const seriesData = [
     duracion: "45 días",
     version: "1.16.5",
     descripcion:
-      "El inicio de un Proyecto de una dimension desconocida.",
+      "El inicio de un proyecto de una dimensión desconocida.",
     estado: "activo",
   },
   {
@@ -28,7 +28,7 @@ const seriesData = [
     duracion: "30 días",
     version: "1.20.1",
     descripcion:
-      "Un reto para los mas valientes, vidas limitadas y jefes formidables a vencer.",
+      "Un reto para los más valientes, vidas limitadas y jefes formidables a vencer.",
     estado: "activo",
   },
   {
@@ -38,7 +38,7 @@ const seriesData = [
     duracion: "30 días",
     version: "1.20.1",
     descripcion:
-      "Continua la aventura de nuestros heroes y dioses buscando derrotar al Dios Desconocido.",
+      "Continúa la aventura de nuestros héroes y dioses buscando derrotar al Dios Desconocido.",
     estado: "activo",
   },
   {
@@ -48,7 +48,7 @@ const seriesData = [
     duracion: "30 días",
     version: "1.20.1",
     descripcion:
-      "Un apocalipsis arrazo al mundo podras sobrevivir a este desafio?.",
+      "Un apocalipsis arrasó al mundo, ¿podrás sobrevivir a este desafío?",
     estado: "activo",
   },
   {
@@ -58,7 +58,7 @@ const seriesData = [
     duracion: "30 días",
     version: "1.20.1",
     descripcion:
-      "Segunda Entrega de BOM con nuevas mecanicas y jefes aun mas dificiles.",
+      "Segunda entrega de BOM con nuevas mecánicas y jefes aún más difíciles.",
     estado: "activo",
   },
   {
@@ -67,7 +67,7 @@ const seriesData = [
     fecha: "Próximamente",
     duracion: "30 días",
     version: "1.21.1",
-    descripcion: "Es un universo de locos, todo se mezcla, tocara solucionarlo.",
+    descripcion: "Es un universo de locos, todo se mezcla, tocará solucionarlo.",
     estado: "proximamente",
   },
 ];
@@ -93,7 +93,7 @@ export default function SeriesPage() {
             <img
               src={serie.logo}
               alt={serie.title}
-              className="w-45 h-auto object-cover transition-transform justify-center duration-300 group-hover:scale-110"
+              className="w-75 h-auto object-cover transition-transform justify-center duration-300 group-hover:scale-110"
             /></div>
 
             <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/40 to-transparent flex flex-col justify-end p-4">
