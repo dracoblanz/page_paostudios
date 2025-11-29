@@ -68,7 +68,7 @@ const seriesData = [
     duracion: "30 días",
     version: "1.21.1",
     descripcion: "Es un universo de locos, todo se mezcla, tocará solucionarlo.",
-    estado: "proximamente",
+    estado: "13 de Diciembre",
   },
 ];
 
