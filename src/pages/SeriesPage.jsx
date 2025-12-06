@@ -64,11 +64,11 @@ const seriesData = [
   {
     title: "PAO Multiverse",
     logo: "../assets/img/logo_pao_multiverse.png",
-    fecha: "Próximamente",
+    fecha: "13 de Diciembre",
     duracion: "30 días",
     version: "1.21.1",
     descripcion: "Es un universo de locos, todo se mezcla, tocará solucionarlo.",
-    estado: "13 de Diciembre",
+    estado: "activo",
   },
 ];
 
