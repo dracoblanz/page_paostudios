@@ -89,7 +89,7 @@ export default function SeriesPage() {
                 : "border-[#b37bff]/40 hover:border-[#b37bff]"
             }`}
           >
-            <div className="absolute align-self-anchor-center">
+            <div className="absolute">
             <img
               src={serie.logo}
               alt={serie.title}
