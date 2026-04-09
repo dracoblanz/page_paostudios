@@ -64,10 +64,18 @@ const seriesData = [
   {
     title: "PAO Multiverse",
     logo: "../assets/img/logo_pao_multiverse.png",
-    fecha: "13 de Diciembre",
+    fecha: "13 Dic 2025",
     duracion: "30 días",
     version: "1.21.1",
     descripcion: "Es un universo de locos, todo se mezcla, tocará solucionarlo.",
+    estado: "activo",
+  },{
+    title: "Fate Apocraft 2",
+    logo: "../assets/img/logo_fap2.png",
+    fecha: "12 de Abril 2026",
+    duracion: "30 días",
+    version: "1.21.1",
+    descripcion: "Segunda entrega de Fate Apocraft, el apocalipsis continúa, ¿podrás sobrevivir a esta nueva amenaza?",
     estado: "activo",
   },
 ];
@@ -89,7 +97,7 @@ export default function SeriesPage() {
                 : "border-[#b37bff]/40 hover:border-[#b37bff]"
             }`}
           >
-            <div className="absolute align-self-anchor-center">
+            <div className="absolute">
             <img
               src={serie.logo}
               alt={serie.title}
